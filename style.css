@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(to right, teal, purple, red);
+}
+table.tbl {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0 22px 70px 5px;
+}
+input[type="button"] {
+  color: black;
+  cursor: pointer;
+  width: 100%;
+
+  background-color: white;
+  font-size: 2em;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px 60px 10px 0px;
+}
+input[type="text"] {
+  color: black;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 100%;
+  font-size: 2em;
+  outline: none;
+}
+#clear {
+  background: #ff9fa8;
+  border: 1px solid #ff9fa8;
+}
